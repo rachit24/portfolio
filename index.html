@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap"
+      rel="stylesheet"/>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="port.css"/>
+    <link rel="icon" href="https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/603823eca4b46344229b30f8_portfolio_course.png">
+    <script src="https://kit.fontawesome.com/44f16a425c.js" crossorigin="anonymous"></script>
+    <title>Rachit | Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar" id="nav">
+      <div class="brand">Rachit Khurana</div>
+      <div class="toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#ply">Playlist</a></li>
+          <li><a href="#dis">Discover</a></li>
+          <li><a href="#abt">About</a></li>
+        </ul>
+    </div>
+    </nav>
+   
+    <div class="flex-container">
+      <div class="flex-left">
+        <img src="img/profile.jpg" alt="" width="100px" id="profile" />
+        <h1 class="nav-name">Rachit Khurana</h1>
+        <div class="social">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="nav">
+            <ul>
+              <li>
+                <a href="#home"><i class="fas fa-home"></i>Home</a>
+              </li>
+              <li>
+                <a href="#project"><i class="far fa-copy"></i>Projects</a>
+              </li>
+              <li>
+                <a href="#contact"><i class="fas fa-id-card"></i>Contact</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+
+
+      <div class="flex-right">
+        <div class="sub1" id="home">
+          <p class="name">Rachit Khurana</p>
+          <b><p class="title">Web Developer</p></b>
+        </div>
+
+        <div id="project" class="sub2">
+          <h1 class="headings">PROJECTS</h1>
+            <div class="card1 card">
+              <a href="https://rachit24.github.io/project/" target="_blank">
+                <img src="https://cdn.pixabay.com/photo/2018/05/18/15/30/webdesign-3411373__340.jpg" alt=""/>
+                <h2>Web Development Projects</h2>
+              </a>
+            </div>
+            <div class="card2 card">
+              <a href="https://rachit24.github.io/phone/" target="_blank">
+                <img src="https://cdn.pixabay.com/photo/2016/12/19/08/39/mobile-phone-1917737__340.jpg" alt=""/>
+                <h2>App Development Projects</h2>
+              </a>
+            </div>
+            <div class="card3 card">
+              <a href="https://rachit24.github.io/gallery/" target="_blank">
+                <img src="https://cdn.pixabay.com/photo/2016/01/09/18/27/camera-1130731__340.jpg" alt=""/>
+                <h2>Photography Projects</h2>
+              </a>
+            </div>
+        </div>
+
+        <div class="sub3" id="contact">
+          <h1 class="headings">About Me</h1>
+          <div class="container">
+            <form>
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Message</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+          </form>
+          </div>
+
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.6176262623985!2d77.33317841440741!3d28.641220090439976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb6b7277f9db%3A0xc23778c98a9dde90!2sCloud%209!5e0!3m2!1sen!2sin!4v1619532690202!5m2!1sen!2sin" width="400px" height="250px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <footer>
+        <i class="fas fa-phone-alt"> 9910124855</i><br/>
+        <i class="far fa-paper-plane"> rachitkhurana382@gmail.com</i>
+    </footer> -->
+    <script src="port.js"></script>
+  </body>
+</html>
